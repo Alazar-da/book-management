@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter , Routes, Route } from "react-router-dom";
 
 import Books from "./components/Books";
 import AddBooks from "./components/addBooks";
@@ -10,7 +10,7 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div className="bg-white">
-      <BrowserRouter>
+      <HashRouter >
     <Routes>
     <Route path="/" element={<Nav />}>
         <Route index element={<Books />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="orderNew" element={<OrderNew />} />
    </Route>
    </Routes>
-  </BrowserRouter>
+  </HashRouter>
 
     </div>
   );
