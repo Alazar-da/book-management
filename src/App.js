@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <>
+    <div className="bg-white">
       <BrowserRouter>
     <Routes>
     <Route path="/" element={<Nav />}>
@@ -22,7 +22,7 @@ function App() {
    </Routes>
   </BrowserRouter>
 
-    </>
+    </div>
   );
 }
 
