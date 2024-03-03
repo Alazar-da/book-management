@@ -48,6 +48,10 @@ function addBooks() {
                         <option value={"other"}>other</option>
                     </select>
                 </div>
+                <div className="grid justify-center">
+                <button className="btn btn-primary">Submit</button>
+                </div>
+
 
             </form>
         </div>
