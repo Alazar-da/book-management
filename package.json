@@ -1,7 +1,7 @@
 {
   "name": "book-management",
   "version": "0.1.0",
-  "homepage": "https://alazar-da.github.io/book-management/",
+  "homepage": "https://book-management-omega.vercel.app/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
