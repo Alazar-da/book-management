@@ -4,7 +4,7 @@ function Orders() {
     return (
         <section className="bg-white h-screen text-black">
         <div className="container mx-auto pt-5 overflow-x-auto">
-            <table class="bg-slate-300 table table-xs table-pin-rows table-pin-cols">
+            <table className="bg-slate-300 table table-xs table-pin-rows table-pin-cols">
             <thead>
                 <tr className="bg-slate-400">
                     <th className="border border-slate-600 px-4 py-2">Title</th>
