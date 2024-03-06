@@ -26,7 +26,7 @@ function addBooks() {
             formData.append("Type", data.Type);
             formData.append("Genere", data.Genere);
 
-            const response = await fetch("http://localhost:5000/Book", {
+            const response = await fetch("https://bookmanagement-backend.vercel.app/Book", {
                 method: "post",
                 body: formData.toString(),
                 headers: {
